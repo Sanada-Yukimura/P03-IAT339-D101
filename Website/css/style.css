@@ -1,0 +1,84 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+body, html{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  background-color: #292F37
+}
+
+a{
+  color: #008080;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  color:#C4C4C4;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.home-page{
+  margin:1em 25em;
+  margin-top: 15em;
+  text-align: center;
+
+}
+
+.home-page ul{
+  list-style: none;
+  border-left: 0.5em solid #0840B9;
+  padding-left: 0.5em;
+
+}
+h1{
+  text-align: left;
+  font-size: 2.5em;
+}
+.home-page img{
+
+  max-width: 100%;
+  border: 0.3em solid #000;
+
+}
+.home-page nav{
+  padding-top: 0;
+  text-align: left;
+
+}
+
+.home-page a{
+  display:inline-block;
+  position:relative;
+  margin-top: 0.1em;
+  padding: 0 1em;
+  height:50%;
+  font-size: 2em;
+
+}
+.home-page a:not(:last-child)::after{
+  position:absolute;
+  content: '';
+  vertical-align: super;
+  height:75%;
+  width:0.1em;
+  margin-top: 0.25em;
+  right:0;
+  top:0;
+  background-color: grey;
+}
+
+.home-page a:first-child{
+  padding-left: 0.5em;
+}
+
+.home-page a:hover{
+  transition: color 0.4s ease-in;
+  color: #00CDCD
+}
