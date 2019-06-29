@@ -6,6 +6,7 @@
 body, html{
   margin:0;
   padding: 0;
+
 }
 
 body{
@@ -62,7 +63,7 @@ h1{
   font-size: 2em;
 
 }
-.home-page a:not(:last-child)::after{
+.home-page a:not(:last-child)::after, .section-title a:not(:last-child)::after{
   position:absolute;
   content: '';
   vertical-align: super;
@@ -74,11 +75,81 @@ h1{
   background-color: grey;
 }
 
-.home-page a:first-child{
+.home-page a:first-child, .section-title a:first-child{
   padding-left: 0.5em;
 }
 
-.home-page a:hover{
+.home-page a:hover, .section-title a:hover{
   transition: color 0.4s ease-in;
   color: #00CDCD
+}
+.about-page{
+  height:100%;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  min-height: 100%;
+  height:100%;
+
+
+}
+
+
+.section-title{
+
+  flex: 1 1 25%;
+  margin-top: 1em;
+  margin-left: 1em;
+
+
+}
+
+
+.section-title a{
+  display:inline-block;
+  position:relative;
+  margin-top: 0.1em;
+  padding: 0 1em;
+  height:50%;
+  font-size: 1.2em
+
+}
+.section-title h1{
+  font-size: 3em;
+  /* text-align: right; */
+  margin: 0;
+  margin-top: 1em;
+  padding-left: 0.5em;
+}
+
+.section-title ul{
+  margin-top: 3em;
+  list-style: none;
+  font-size: 2em;
+}
+
+.section-title li{
+  margin-top: 0.5em;
+}
+.section-content{
+  flex:75%;
+  margin:0;
+  margin-top: 5em;
+
+  text-align: justify;
+}
+.section-content h1{
+  font-size: 2em;
+  border-bottom: 0.2em solid #C4C4C4;
+  text-align: left;
+  padding-bottom: 0.2em;
+
+}
+
+.section-content article{
+
+  margin-right:18em;
 }
