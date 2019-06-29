@@ -1,0 +1,3 @@
+Hello, my name is Benedict Wong. I’m a game designer and an avid gamer.
+I am a game designer whose interests lie in creating and developing enjoyable experiences for the consumer. In order to do so, my goal is to develop games where players make meaningful decisions through various game mechanics such as the ability to make a clear choice.
+As a programmer, I am experienced in Object-Oriented languages such as Java and Processing. These languages help me to create programs that are both intricate in both visual and mechanical aspects. Through these object-oriented languages, I have worked on and created an interactive eco-system, side-scrolling games, and mobile applications.
