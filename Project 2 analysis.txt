@@ -10,3 +10,5 @@ The second step, after designing the main features and primary looks of the appl
 
 Lastly, the final outcome of the Interactive Newspaper put both of these aspects together and thus allowed users to view news on a light-weight application that would change the news according to their geographical location.
 
+
+The project, while successful in reaching its objectives and providing a useable experience for the user, I feel like the application could definitely be improved further. Given more time, one of the biggest implementations that I would add is a full in-app newsreader. As the application only allows for previews to be seen, a completely in-app reading environment would remove the disconnction between the switch from in-app preview to external internet browser for the full details.
