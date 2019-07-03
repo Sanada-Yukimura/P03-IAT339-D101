@@ -1,0 +1,12 @@
+Start-End date: Feb 2019 - April 2019
+
+This project showcases my final project in designing and coding an Android application for actual use.
+
+The Interactive Newspaper is a light-weight newsreader that allows user to retrieve the latest news onto their phones. The application also includes a GPS tracking feature that detects the province that the user is currently in and automatically changes the news displayed accordingly.
+
+The first step I took in ideating and designing the Interactive Newspaper was to gather the necessary elements that I needed for the application. In my concept report, I noted the fact that the Interactive Newspaper is "an ever-changing newspaper application that regularly updates the screen with news around the location of the user." In order to do so, I needed implementation of GPS tracking as well as the ability to parse website information and output it into my application's text fields. To do so, I took the RSS feeds of CBC, converted the file's many tags into useful data, then applied it to the Interactive Newspaper.
+
+The second step, after designing the main features and primary looks of the application, was to consider when and where users would most likely be using the app. After sorting through the few use-cases that I had thought of, my main goal was to then design the application to detect the light level of the environment using the phone's light sensor and deploy either the light or dark theme depending on the situation. By doing this, my goal was to allow users to always be able to use the application and to prevent damage to their eyes when viewing the application in low-light environments.
+
+Lastly, the final outcome of the Interactive Newspaper put both of these aspects together and thus allowed users to view news on a light-weight application that would change the news according to their geographical location.
+
