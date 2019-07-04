@@ -7,11 +7,17 @@ body{
   background-color: #292F37;
 
 }
+p, a{
+  font-family: 'Noto Sans', sans-serif;
+}
 
-p, a, button, label, input, figcaption{
-  font-family: 'Roboto', sans-serif;
+a{
   color: #008080;
 
+}
+
+p{
+  color:#C4C4C4;
 }
 
 h1, h2, h3, h4, h5{
@@ -52,6 +58,18 @@ figure{
   margin-left: 0;
 
 }
+
+#noto-sans{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#palaquin-dark{
+  font-family: 'Palanquin Dark', sans-serif;
+}
+#color3{
+  border:0.1em solid white;
+}
+
 
 .box{
   margin-top: 5em;

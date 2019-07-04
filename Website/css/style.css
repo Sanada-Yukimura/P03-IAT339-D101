@@ -17,13 +17,14 @@ a{
   color: #008080;
   text-decoration: none;
   font-weight: bold;
-  font-family: 'Noto Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p{
   color:#C4C4C4;
-  font-family: 'Noto Sans', sans-serif;
+
 }
+
+
 
 .home-page{
   margin:1em 25em;
@@ -133,6 +134,10 @@ h1{
 .section-title li{
   margin-top: 0.5em;
 }
+
+
+
+
 .section-content{
   display:flex;
   flex-flow: row nowrap;
@@ -141,19 +146,64 @@ h1{
 
   text-align: justify;
 }
-.section-content h1{
-  font-size: 2em;
-  border-bottom: 0.2em solid #C4C4C4;
-  text-align: left;
-  padding-bottom: 0.2em;
 
+
+
+
+
+
+i{
+  font-weight: normal;
+  margin-left: 0.3em;
+}
+
+
+.section-content article p:first{
+  border-top: 0.2em solid #C4C4C4;
+}
+
+.about-title{
+  flex: 0 0 40%;
+  font-size: 2em;
+  margin-top: 5.3em;
+  transform: rotate(-180deg);
+
+  writing-mode: vertical-rl;
+}
+
+.about-title h1{
+  margin-right: 4em;
+  border-left: 0.1em solid #c4c4c4;
 }
 
 .section-content article{
-  margin-left: 40em;
-  margin-right:40em;
-  margin-top: 3em;
+  flex: 0 0 33%;
+
+  margin-right: 5em;
+  margin-top: 8.5em;
+
 }
+
+.section-content article h1{
+  font-size: 2em;
+  border-bottom: 0.1em solid #C4C4C4;
+
+  text-align: left;
+  padding-bottom: 0.2em;
+
+
+}
+
+.section-content h1 p{
+  display:inline;
+}
+.section-content h1 a{
+  color: #C4C4C4;
+
+}
+
+
+
 
 .section-content a{
   font-size: 1.5em;
@@ -170,7 +220,7 @@ h1{
 .project-title{
   flex:100%;
 }
-.project-content{
+.project-1{
   display:flex;
   flex-flow: row nowrap;
 }
@@ -178,7 +228,6 @@ h1{
   max-width:100%;
 }
 .project-content figure{
-
   flex:40%;
   background-color: #333;
 }
