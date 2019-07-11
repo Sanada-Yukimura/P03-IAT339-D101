@@ -291,6 +291,17 @@ input{
   text-align: center;
 }
 
+.grid-img img{
+  max-width: 50%;
+  display:inline-block;
+  flex:50%;
+  border: 0.1em solid white;
+  margin-right: 2em;
+}
+.grid-img{
+  display:flex;
+}
+
 
 @media(max-width:50em){
   .box{
