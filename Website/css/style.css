@@ -259,6 +259,11 @@ i{
 .project-1-content{
   margin: 3em 10em;
 }
+.project-1-content ul{
+  list-style: none;
+  padding-left: 0;
+}
+
 .project-prompt{
   background-color: #21252B;
   padding:0 1em;
