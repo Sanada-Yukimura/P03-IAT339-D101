@@ -254,13 +254,13 @@ i{
 .project-content img{
   max-width:100%;
 }
-.project-content figure{
-  flex:40%;
-  background-color: #333;
+.project-content video{
+  flex:20%;
   margin-left: 1.5em;
 }
 .project-content article{
   flex:60%;
+  margin-left: 2em;
 }
 
 .project-1-content{
@@ -278,6 +278,7 @@ i{
 .project-1-content ul{
   list-style: none;
   padding-left: 0;
+  margin-top: 0;
 }
 
 

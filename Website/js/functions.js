@@ -18,3 +18,13 @@ function onHover(link){
     document.getElementById("about-github").src = "img/GitHub-hover.png";
   }
 }
+
+
+function playPause(val){
+  if(val == 0){
+    document.getElementById("project-1-preview").pause();
+  }
+  if(val == 1){
+    document.getElementById("project-1-preview").play();
+  }
+}
