@@ -250,9 +250,15 @@ i{
   margin-top: 3em;
 
 }
+.project-1, .project-2{
+  display:flex;
+  margin-bottom: 2em;
+}
 
 .project-content img{
-  max-width:100%;
+  flex:20%;
+  max-width:28.5%;
+  margin-left:1.5em;
 }
 .project-content video{
   flex:20%;
@@ -304,4 +310,8 @@ i{
 .project-1-video{
   margin-top: 2em;
   text-align: center;
+}
+.dl-icon{
+  font-size: 1.5em;
+  font-weight: bolder;
 }
