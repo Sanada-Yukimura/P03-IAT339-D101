@@ -237,7 +237,7 @@ i{
   flex-direction: column;
   align-items: stretch;
   min-height: 100%;
-  height:100%;
+  height:100vh;
 
 }
 .project-title{
@@ -258,25 +258,22 @@ i{
 
 .works-container{
   flex:50%;
-  display:flex;
+  margin-top: 2em;
   margin-bottom: 3em;
+  text-align: center;
 
 }
 
 .works-container video{
   margin-left: 2em;
-  flex:30%;
+  max-width: 50%;
 }
 .works-container img{
   max-width: 29.05%;
   margin-left: 2em;
-  flex:30%;
+
 }
 
-.works-container article{
-  margin-left: 1.5em;
-  flex:70%;
-}
 
 
 /* .works-container{
