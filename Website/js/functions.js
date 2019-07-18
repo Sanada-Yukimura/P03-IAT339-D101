@@ -28,3 +28,25 @@ function playPause(val){
     document.getElementById("project-1-preview").play();
   }
 }
+
+function prev(){
+  if(window.getComputedStyle(document.getElementById("project-1")).display == "block"){
+    console.log("success");
+    document.getElementById("project-1").style.display = "none";
+    document.getElementById("project-2").style.display = "block";
+  }
+  else if(window.getComputedStyle(document.getElementById("project-2")).display == "block"){
+    document.getElementById("project-1").style.display = "block";
+    document.getElementById("project-2").style.display = "none";
+  }
+}
+function next(){
+  if(window.getComputedStyle(document.getElementById("project-1")).display == "block"){
+    document.getElementById("project-1").style.display = "none";
+    document.getElementById("project-2").style.display = "block";
+  }
+  else if(window.getComputedStyle(document.getElementById("project-2")).display == "block"){
+    document.getElementById("project-1").style.display = "block";
+    document.getElementById("project-2").style.display = "none";
+  }
+}
