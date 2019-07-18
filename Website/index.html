@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -14,17 +14,186 @@
     <main class="container">
       <section class="home-page bg1">
         <h1>Hello. This is Benedict Wong's Portfolio.</h1>
-        <img src="img/placeholder-home.png" alt="" id="home-page-img"/>
         <nav>
           <a href="about.html" onmouseover="onHover('about')">About</a>
-          <a href="projects.html" onmouseover="onHover('projects')">Works</a>
-          <a href="contact.html" onmouseover="onHover('contact')">Contact</a>
+          <a href="#works" onmouseover="onHover('projects')">Works</a>
+          <a href="#contact-container" onmouseover="onHover('contact')">Contact</a>
           <a href="../Style_Guide/styleGuide.html" onmouseover="onHover('style-guide')">Style Guide</a>
         </nav>
 
       </section>
     </main>
 
+
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="about-page">
+  <head>
+    <meta charset="utf-8">
+    <script src="js/functions.js"></script>
+    <script src="https://kit.fontawesome.com/80398c91ba.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark&display=swap" rel="stylesheet">
+    <title>About: Benedict Wong</title>
+  </head>
+  <body class="about-page">
+
+    <div class="about-container">
+      <section class="section-nav">
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="#works">Works</a>
+          <a href="#contact-container">Contact</a>
+          <a href="../Style_Guide/styleGuide.html">Style Guide</a>
+        </nav>
+      </section>
+
+      <section class="section-content">
+
+        <section class="about-title">
+          <!-- <h1>ABOUT ME</h1> -->
+        </section>
+
+          <article>
+            <h1>About Me
+              <a href="https://github.com/Sanada-Yukimura"> <i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/benedict-wong-9b3047125"><i class="fab fa-linkedin"></i></a>
+              <a href="mailto:wong.benedict1996@gmail.com"><i class="fas fa-envelope"></i></a>
+            </h1>
+
+
+          <p>
+            <!-- First person bio or third person bio? -->
+            Hello, my name is Benedict Wong. I’m a game designer and an object-oriented programmer.</p>
+            <p>
+            I am a game designer whose interests lie in creating and developing enjoyable experiences for the player. In order to do so, my goal is to develop games where players make meaningful decisions through various game mechanics such as the ability to make a clear choice.</p>
+            <p>As a programmer, I am experienced in object-oriented languages such as Java and Processing. These languages help me to create programs that are both intricate in both visual and mechanical aspects. Through these object-oriented languages, I have worked on and created an interactive eco-system, side-scrolling games, and mobile applications.</p>
+            <a href="">Résumé</a>
+
+        </article>
+        <aside>
+          <p>Languages I've worked with: </p>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+
+
+          </ul>
+          <ul>
+            <li>Java</li>
+            <li>Processing</li>
+            <li>Android SDK</li>
+          </ul>
+          <ul>
+            <li>C</li>
+            <li>SourceMod</li>
+
+
+          </ul>
+          <p>Languages I'm more familiar with: </p>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+
+
+          </ul>
+          <ul>
+            <li>Java</li>
+            <li>Processing</li>
+            <li>Android SDK</li>
+          </ul>
+
+        </aside>
+
+      </section>
+
+    </div>
+
+    <div class="project-container" id="works">
+      <section class="section-nav">
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="#contact-container">Contact</a>
+          <a href="../Style_Guide/styleGuide.html">Style Guide</a>
+        </nav>
+      </section>
+
+      <section class="project-content">
+        <div class="leftbox"></div>
+        <div class="works-container" onmouseover="playPause(1)" onmouseout="playPause(0)">
+        <video id ="project-1-preview" height="320"   loop muted>
+          <source src="videos/project-1-preview.webm" type="video/webm">
+        </video>
+        <article>
+          <p>Category: Term Project</p>
+          <h2>Interactive Ecosystem</h2>
+          <ul>
+            <li>Start - End Date: September 2018 - December 2018</li>
+            <li>Programming Language used: Java</li>
+
+          </ul>
+          <p>The Interactive Ecosystem is a digital simulation of fish surviving in a fish tank by swimming and eating food to survive.</p>
+          <a href="project-1.html">More info.</a>
+        </article>
+      </div>
+      <div class="works-container">
+        <img src="img/project-2-preview.png">
+
+        <article>
+          <p>Category: Prototype</p>
+          <h2>Interactive Newspaper</h2>
+          <ul>
+            <li>Start - End Date: Start-End date: Feb 2019 - April 2019</li>
+            <li>Programming Language used: Java/Android SDK</li>
+          </ul>
+          <p>The Interactive Newspaper is a prototype of a lightweight Android application designed to save data and adapt to the user's location.</p>
+          <a href="project-2.html">More info.</a>
+        </article>
+      </div>
+      </section>
+    </div>
+    <div class="about-container" id="contact-container">
+      <section class="section-nav">
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="#works">Works</a>
+
+          <a href="../Style_Guide/styleGuide.html">Style Guide</a>
+        </nav>
+      </section>
+
+      <section class="section-content">
+
+        <section class="about-title">
+          <!-- <h1>ABOUT ME</h1> -->
+        </section>
+
+          <article>
+            <h1>Contact Me
+              <a href="https://github.com/Sanada-Yukimura"> <i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/benedict-wong-9b3047125"><i class="fab fa-linkedin"></i></a>
+              <a href="mailto:wong.benedict1996@gmail.com"><i class="fas fa-envelope"></i></a>
+            </h1>
+
+
+          <p>
+            <!-- First person bio or third person bio? -->
+            If you've reached this page, then that means you're interested in me and my work! In that case, feel free to contact me at <span>wong.benedict1996@gmail.com </span>.</p>
+
+            <a href="">Résumé</a>
+
+        </article>
+
+      </section>
+
+    </div>
 
   </body>
 </html>

@@ -91,13 +91,15 @@ h1{
   flex-direction: column;
   align-items: stretch;
   min-height: 100%;
-  height:100%;
+  height:100vh;
 }
 
+#works{
+  height:100vh;
+}
 
 .section-nav{
   margin-top: 1em;
-  flex: 1 1 25%;
   margin-top: 1em;
   margin-left: 1em;
 
@@ -247,27 +249,58 @@ i{
 }
 
 .project-content{
+  display:flex;
   margin-top: 3em;
+  flex-flow: column;
 
 }
-.project-1, .project-2{
+
+
+.works-container{
+  flex:50%;
+  display:flex;
+  margin-bottom: 3em;
+
+}
+
+.works-container video{
+  margin-left: 2em;
+  flex:30%;
+}
+.works-container img{
+  max-width: 29.05%;
+  margin-left: 2em;
+  flex:30%;
+}
+
+.works-container article{
+  margin-left: 1.5em;
+  flex:70%;
+}
+
+
+/* .works-container{
   display:flex;
   margin-bottom: 2em;
 }
 
-.project-content img{
+.works-container img{
   flex:20%;
   max-width:28.5%;
   margin-left:1.5em;
 }
-.project-content video{
+.works-container video{
   flex:20%;
   margin-left: 1.5em;
 }
-.project-content article{
-  flex:60%;
-  margin-left: 2em;
-}
+.works-container article{
+  flex:20%;
+  margin-left: 1.5em;
+  background-color: #21252B;
+  padding-left: 1em;
+} */
+
+
 
 .project-1-content{
   margin: 3em 10em;
@@ -281,7 +314,7 @@ i{
   margin: 0;
 }
 
-.project-1-content ul{
+.project-content ul, .project-1-content ul{
   list-style: none;
   padding-left: 0;
   margin-top: 0;
@@ -314,4 +347,9 @@ i{
 .dl-icon{
   font-size: 1.5em;
   font-weight: bolder;
+}
+
+
+#contact-container{
+  height:100vh;
 }
