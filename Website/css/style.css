@@ -8,6 +8,9 @@ body, html{
   padding: 0;
 
 }
+strong{
+  font-weight: bolder !important;
+}
 
 body{
   background-color: #292F37;
@@ -184,9 +187,10 @@ i{
 }
 
 .section-content article{
-  flex: 0 0 33%;
+  flex: 0 0 35%;
   margin-right: 5em;
-  margin-top: 8.5em;
+  margin-top: 1em;
+
 
 }
 
@@ -394,6 +398,8 @@ i{
 .contact-email-inline{
   font-size: 1em !important;
   font-weight: normal;
+  display:inline-block;
+
 }
 
 #contact-container{
