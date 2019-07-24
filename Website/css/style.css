@@ -8,9 +8,6 @@ body, html{
   padding: 0;
 
 }
-strong{
-  font-weight: bolder !important;
-}
 
 body{
   background-color: #292F37;
@@ -29,6 +26,45 @@ h1, h2, h3, h4, h5, h6, p, ul{
 ul{
   list-style: none;
 }
+
+.landing-content-container{
+  margin:15em 2em;
+  display:flex;
+  flex-flow: row nowrap;
+}
+
+.landing-content{
+  margin-left: 2em;
+  margin-right: 1em;
+  flex: 50%;
+}
+
+.landing-content h1{
+  margin-top: 0;
+}
+
+.learn-more{
+  margin-top: 1em;
+  padding:1em;
+  width:25em;
+  border-radius: 0.3em;
+  background-color: #001628;
+  border:0.1em solid #C4C4C4;
+  color:#C4C4C4;
+
+}
+
+.learn-more:hover{
+  background-color: #00325A;
+  transition: background-color 0.05s ease-in;
+}
+
+.landing-image{
+  margin-right: 2em;
+  flex:50%;
+  border:0.1em solid white;
+}
+
 
 .index-title{
   text-align: center;
@@ -187,10 +223,9 @@ i{
 }
 
 .section-content article{
-  flex: 0 0 35%;
+  flex: 0 0 33%;
   margin-right: 5em;
-  margin-top: 1em;
-
+  margin-top: 8.5em;
 
 }
 
@@ -398,8 +433,6 @@ i{
 .contact-email-inline{
   font-size: 1em !important;
   font-weight: normal;
-  display:inline-block;
-
 }
 
 #contact-container{

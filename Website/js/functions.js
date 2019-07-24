@@ -1,3 +1,8 @@
+function linkTo(url) {
+  location.href=url;
+}
+
+
 function onHover(link){
   if(link == 'about'){
     document.getElementById("home-page-img").src = "img/placeholder-home.png";
