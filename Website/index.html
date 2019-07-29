@@ -11,31 +11,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About: Benedict Wong</title>
   </head>
-  <body>
-    <section class="landing-page">
-    
+  <body class="index-body">
     <section class="section-nav">
       <nav>
-
-        <a href="works.html">Works</a>
+        <a href="#about">About</a>
+        <a href="#works">Works</a>
         <a href="contact.html">Contact</a>
-        <a href="../Style_Guide/styleGuide.html">Style Guide</a>
+
       </nav>
     </section>
+    <section class="landing-page">
+
+
 
 
     <section class="landing-content-container">
       <section class="landing-content">
-        <h1 class="disableBlur">This is Benedict Wong's Portfolio!</h1>
-        <p class="disableBlur">I'm an object-oriented programmer and a developing game designer whose interests lie in developing games and content for story-driven players.</p>
-        <button class="learn-more" onclick="linkTo('about.html')">LEARN MORE</button>
+        <h1>Welcome to Benedict Wong's Portfolio!</h1>
+
+
       </section>
-    <!--
-    <aside class="landing-image">
-      <img src="img/landing-code.png">
-    </aside>
-    </section> -->
+      <section class="landing-content-more">
+        <p>I'm an object-oriented programmer and a developing game designer whose interests lie in developing games and content for story-driven players.</p>
+        <button class="learn-more" onclick="linkTo('#about')">LEARN MORE</button>
+      </section>
+
   </section>
+  </section>
+
+<section class="about-container"  id="about">
+
+  <section class="section-content about-content">
+
+    <section class="about-title">
+      <!-- <h1>ABOUT ME</h1> -->
+    </section>
+
+      <article>
+        <h1>About Me
+          <a href="https://github.com/Sanada-Yukimura"> <i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/benedict-wong-9b3047125"><i class="fab fa-linkedin"></i></a>
+        </h1>
+
+
+      <p>
+        <!-- First person bio or third person bio? -->
+        Hello, my name is Benedict Wong. I’m a game designer and an object-oriented programmer.</p>
+        <p>
+        I am a game designer whose interests lie in creating and developing enjoyable experiences for the player. In order to do so, my goal is to develop games where players make meaningful decisions through various game mechanics such as the ability to make a clear choice.</p>
+        <p>Through my amazing journey as a programmer, I've explored a variety of programming languages. However, while I have used general-purposed programming languages such as <strong>Python</strong> or <strong>C</strong>, I find myself most comfortable utilizing object-oriented languages such as <strong>Java</strong> and <strong>Processing</strong>. These OOP languages help me to create programs that are intricate in both visual and mechanical aspects, something that I am unable do freely with Python or C. Through these OOP languages, I have worked on and created programs such as an interactive eco-system, side-scrolling games, and mobile applications.</p>
+
+    </article>
+
+  </section>
+
+</section>
+
+<section class="works-container" id="works">
+  <h1>Works</h1>
+  <section class="works-content-container">
+    <section class="arrow-left">
+      <a onclick="prev()">&#10148;</a>
+    </section>
+    <section class="projects-content-container">
+      <section class="project-1-new" id="project-1">
+        <div class="project-new">
+          <video id ="project-1-preview" autoplay loop muted>
+            <source src="videos/project-1-preview.webm" type="video/webm">
+          </video>
+        </div>
+        <section>
+          <h2>Interactive Ecosystem</h2>
+          <p>The Interactive Ecosystem is a digital simulation of fish surviving in a fish tank by swimming and eating food to survive.</p>
+          <a href="project-1.html">More info.</a>
+        </section>
+      </section>
+
+      <section class="project-2-new" id="project-2">
+        <div class="project-new">
+          <img src="img/project-2-preview.png">
+        </div>
+        <section>
+          <h2>Interactive Newspaper</h2>
+          <p>The Interactive Newspaper is a prototype of a lightweight Android application designed to save data and adapt to the user's location.</p>
+          <a href="project-2.html">More info.</a>
+        </section>
+      </section>
+    </section>
+    <section class="arrow-right">
+      <a onclick="next()">&#10148;</a>
+    </section>
+
+  </section>
+
 </section>
   </body>
 </html>

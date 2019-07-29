@@ -10,7 +10,8 @@ body, html{
 }
 
 body{
-  background-color: #292F37;
+  background-color: #282c34;
+
 }
 
 a{
@@ -27,37 +28,71 @@ ul{
   list-style: none;
 }
 
+.index-body{
+
+}
+.section-nav{
+  background-color: rgba(74, 82, 105, 0.9);
+  padding-bottom: 1em;
+  position: fixed;
+  width:100%;
+}
+
+
 .landing-page{
   background: #282c34 url("../img/landing-code.png") no-repeat center;
-
+  background-size: cover;
+  overflow: auto;
   height:100vh;
+
 
 }
 
 .landing-content-container{
 
   background-color: rgba(245, 246, 247, 0.7);
-  margin:20em 2em;
+  margin:25em auto;
+  margin-right: 0;
+
   margin-bottom: 0;
   display:flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
+  max-width: 70%;
+
+
 
 
 }
 
 .landing-content{
 
-  margin-left: 2em;
-  margin-right: 1em;
+  padding-left: 2em;
   flex: 50%;
+
+
 }
+
 
 .landing-content h1{
   margin-top: 0;
   color: #BE6200;
+
+  font-size: 3em;
 }
-.landing-content p{
+.landing-content-more{
+
+  padding-left: 2em;
+  padding-bottom: 1em;
+  width:100%;
+  align-self: bottom;
+  background-color: rgba(0, 144, 192, 0.6);
+
+}
+
+.landing-content-more p{
   color:black;
+  font-size: 1.1em;
+
 }
 
 .learn-more{
@@ -153,21 +188,17 @@ h1{
 
 
 .about-container{
+  margin-top: 5em;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  min-height: 100%;
-  height:100vh;
 }
 
-#works{
-  height:100vh;
-}
 
 .section-nav{
-  margin-top: 1em;
-  margin-top: 1em;
-  margin-left: 1em;
+  padding-top: 1em;
+  padding-left: 1em;
+  text-align: center;
 
 
 }
@@ -180,7 +211,8 @@ h1{
   margin-top: 0.1em;
   padding: 0 1em;
   height:50%;
-  font-size: 1.5em
+  font-size: 2em
+
 
 }
 .section-title h1{
@@ -328,7 +360,7 @@ i{
 
 .works-container{
   flex:50%;
-  margin-top: 2em;
+  margin-top: 5em;
   margin-bottom: 3em;
   text-align: center;
 
@@ -382,7 +414,7 @@ i{
 .project-detail-content{
   display:flex;
   flex-flow: column nowrap;
-  margin: 3em 10em;
+  margin: 6em 10em;
 
 }
 
@@ -460,7 +492,9 @@ i{
   height:100vh;
 }
 
-
+.about-content{
+  height:100vh;
+}
 
 
 
