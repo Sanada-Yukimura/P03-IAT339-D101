@@ -51,7 +51,7 @@ ul{
 .landing-content-container{
 
   background-color: rgba(245, 246, 247, 0.7);
-  margin:25em auto;
+  margin:30em auto;
   margin-right: 0;
 
   margin-bottom: 0;
@@ -262,24 +262,33 @@ i{
 
 .about-title{
   flex: 0 0 30%;
-  font-size: 2em;
-  margin-top: 5.3em;
+  font-size: 3em;
+
+  margin-bottom: 2em;
   transform: rotate(-180deg);
 
   writing-mode: vertical-rl;
+
 }
 
 .about-title h1{
-  margin-right: 4em;
-
-  border-left: 0.1em solid #c4c4c4;
+  /* margin-right: 4em; */
+  text-decoration: underline;
+  user-select: none;
 }
 
 .section-content article{
-  flex: 0 0 33%;
-  margin-right: 5em;
-  margin-top: 3em;
+  flex: 0 0 70%;
 
+  padding-left: 10em;
+  margin-bottom: 0.1em;
+  padding-top: 15em;
+  background-color: rgba(50, 194, 144, 0.5);
+
+}
+
+.section-content article h1, .section-content article p{
+  max-width:60%;
 }
 
 .section-content aside{
