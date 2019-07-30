@@ -264,7 +264,7 @@ i{
   flex: 0 0 30%;
   font-size: 3em;
 
-  margin-bottom: 2em;
+  padding-top: 3.5em;
   transform: rotate(-180deg);
 
   writing-mode: vertical-rl;
@@ -275,6 +275,7 @@ i{
   /* margin-right: 4em; */
   text-decoration: underline;
   user-select: none;
+
 }
 
 .section-content article{

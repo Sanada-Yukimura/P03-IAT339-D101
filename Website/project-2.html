@@ -21,7 +21,7 @@
   <div class="project-container">
 
     <section class="project-detail-content">
-      <a href="works.html">&#8592; Back to all works</a>
+      <a href="index.html#works">&#8592; Back to all works</a>
       <p class="category">Category: Final Project</p>
       <h1>Paradise Lost</h1>
       <section class="project-1-info">
@@ -42,6 +42,7 @@
 
       </section>
       <section>
+        <h3>Intial Preparation</h3>
         <p>The initial process consisted of three parts, brainstorming the concept and theme of the game, flesh out the four types of game design (System, Interaction, Motivation and Narrative) and how it affects my game, and finally note down the remaining aspects that I needed to make the game playable and fun for the player to enjoy.</p><p> After the initial brainstorming and gathering of details, the rest of the initial process was rather short. I definitely needed to create a storyboard that would solidify my ideas, as well as to construct a cohesive design report that would list and showcase the game that I would eventually be developing. The pictures below show the storyboard that contains my level and interaction design, as well as the UML that organized my code.
         </p>
         <div class="project-1-video">
@@ -51,7 +52,8 @@
       </div>
       </section>
       <section>
-        <p>After ideating and finally grasping my initial concept, I noted that I first needed to complete the newsreading and GPS functionalities. To complete the newsreading functionality, I took the CBC's RSS feed and took steps to parse and output the feed into my application. Afterwards, I placed the output into respective fields that contained the news title, a short description and the news link. For the GPS functionality, I took advantage of the Geocoder package to parse and convert longitude and latitude coordinates. This allowed my application to pinpoint the specific province that the user is located in and provide provincial news specific to the user's location.
+        <h3>Milestone 1</h3>
+        <p>Milestone 1 of Paradise Lost was to create an interactable player character, objects for the player to interact with and the basic design of the first stage. First, I started with the player character. At this point, the player character was a simple cube with a sword that was also another rectangle. This was a placeholder as I had not yet finalized the design that I wanted to implement for my character sprite. Next, I implemented a simple box with two health for the player to use the sword to break, as well as a circular object that acted as a key that would unlock the next stage. I also added signs that would give the player a simple tutorial to help the user to understand the game mechanics. Lastly, the stage design was first created in Photoshop, where the background and layout of the stage was designed. Next, I implemented code that would prevent users from going beyond the walls of the stage, following the boundaries set by the background image.
          </p>
         <div class="project-1-video">
         <video controls width="640" height="320">
@@ -60,7 +62,9 @@
       </div>
       </section>
       <section>
-        <p>The second step, after designing the main features and primary looks of the application, was to consider when and where users would most likely be using the app. After sorting through the few use-cases that I had thought of, my main goal was to then design the application to detect the light level of the environment using the phone's light sensor and deploy either the light or dark theme depending on the situation. By doing this, my goal was to allow users to always be able to use the application and to prevent damage to their eyes when viewing the application in low-light environments.</p>
+        <h3>Milestone 2</h3>
+        <p>Milestone 2 was split into two parts as I needed to develop two inner stages for the second level. As Paradise Lost is a puzzle game, I wanted to implement puzzle aspects such as a maze and a trivia section to the game. The maze section was the harder part as it was very difficult to implement code such that the user would bounce off of the walls correctly. While I was able to work out most of the bugs regarding the walls not interacting properly with the player character, there are some issues where the player would occasionally teleport forwards or backwards, resetting their progress. Overall, the maze worked well and, in a way, provided a challenge for the player. On the other hand, the trivia section was easier to develop. With only a simple true or false answer to the questions given, the player would be able to finish the level. At the time of developing this milestone, I only used placeholder questions as I would eventually give questions that were related to the lore of the game. By completing both wings of stage two, the two gates would open and thus allowing the player to complete the level. Milestone 2 was also the milestone in which I implemented the basic UI at the top of the screen. At this point, there were no elements design elements implemented, but the UI acted as a placeholder for Milestone 3.
+        </p>
         <div class="project-1-video">
         <video controls width="640" height="320">
           <source src="videos/bwa44-A1P2.webm" type="video/webm">
@@ -68,7 +72,9 @@
       </div>
       </section>
       <section>
-        <p>Lastly, the final outcome of the Interactive Newspaper put all of the functionalities together and thus allowed users to view local news specific to their current location, as well as world news and sports-related news around the country.</p>
+        <h3>Milestone 3</h3>
+        <p>The main goal in Milestone 3 was to create the final boss level as well as merge all of the levels together to create the final game. As Paradise Lost takes inspiration from games like Dark Souls where the bosses are unforgiving and cruel, I designed the boss stage to be rather hard to win. However, in reflection, I realize that the boss level was a bit too unforgiving and definitely would undermine most player’s progress and commitment into the game. Furthermore, while the boss level was designed to be quite easy if players were able to time their movements to the boss ability, it could definitely be a bit more intricate with regards to the boss’ behavior. After designing and implementing the boss level, the next step was to design and replace all the placeholder textures that were in place for testing. This included the player sprite, the key and box textures, as well as implementing the player health bar and any other miscellaneous textures. After this was complete, the final step was to link all of the stages together and create images for the story, which would create a connection for the whole game.
+        </p>
         <div class="project-1-video">
         <video controls width="640" height="320">
           <source src="videos/bwa44-A1P2.webm" type="video/webm">
@@ -77,10 +83,11 @@
       </section>
       <section>
         <h3>Reflection</h3>
-        <p>While the application was successful in reaching its objectives and providing a usable experience for the user, I felt that the application could definitely be improved further, both in the cosmetic appearance and the amount of functionalities that could be developed. Given more time, one of the biggest implementations that I would add would be a full in-app newsreader. As the application only allows for previews to be seen, a completely in-app reading environment would remove the disconnction between the switch from in-app preview to external internet browser for the full details of the selected news article.</p>
+        <p>As Paradise Lost was my first foray into a more intricate game, I think that there were definitely aspects that I succeeded in completing while there were definitely aspects where I failed or needed more work in. Coupled with the time constraint of under a month to create this task, I feel that, given more time, I could definitely create a product that would be more fun to the player. First, with regards to the aspects that succeeded, I think the fact that I was able to create something that resembled a game in under a month would be considered a success of sorts. Additionally, as noted in my initial design report, I wanted to create a game that implemented the challenge, fantasy and narrative types of fun. While the challenge of the game itself could definitely be improved upon, I was able to create a fantasy setting with a story that explained the player character’s origin story throughout the game. With regards to the aspects that failed, I think the thing that upset me the most was that I was unable to create something more. Working on Milestone 3, I realized that the schedule I was following would not be able to finish the game in time for the deadline. In order to fix this, I needed to cut out content such as developing the boss behavior to be more intricate. Furthermore, I felt that the textures and art-style of my game could use more work, as the textures felt low-fidelity and amateur. Ultimately, excluding the issue of design direction and time constraints, I consider Paradise Lost to be a success.
+        </p>
         <section class="dl-section"><a href="https://mega.nz/#!aM1jAa7T!niH68KcPeQ0oLCrS4cOGh0pXoDpJVFYIEcYexA3eYmA"><span class="dl-icon">&#10515;</span> If you wish to test the Interactive Newspaper on your android device, you can download it here. </a></section>
       </section>
-      <a href="works.html">&#8592; Back to all works</a>
+      <a href="index.html#works">&#8592; Back to all works</a>
 
     </section>
 
