@@ -36,6 +36,7 @@ ul{
   padding-bottom: 1em;
   position: fixed;
   width:100%;
+  z-index: 999;
 }
 
 
@@ -284,7 +285,7 @@ i{
   padding-left: 10em;
   margin-bottom: 0.1em;
   padding-top: 15em;
-  background-color: rgba(50, 194, 144, 0.5);
+  background-color: rgba(130, 98, 189, 0.5);
 
 }
 
@@ -370,10 +371,16 @@ i{
 
 .works-container{
   flex:50%;
-  margin-top: 5em;
-  margin-bottom: 3em;
+  padding-top: 5em;
   text-align: center;
+  height:100vh;
 
+
+}
+.works-container h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3em;
 }
 
 .works-content-container{
@@ -505,7 +512,11 @@ i{
 .about-content{
   height:100vh;
 }
-
+.project-image{
+  display:inline;
+  max-width: 40%;
+  margin-right: 1em;
+}
 
 
 
