@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style.css"/>
   <link rel="stylesheet" href="css/fonts.css"/>
+  <link rel="stylesheet" href="css/mobile.css"/>
   <script src="js/functions.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark&display=swap" rel="stylesheet">
@@ -41,32 +42,56 @@
           <p class="last-p">Choose a kind of animal world you will build a simulation of. As we progress, you will have to draw your animals, their predators, their food, and features of the environment.</p>
           <h2 class="rquot">&#8221;</h2>
         </div>
-
+        <h3>Introduction</h3>
       <p>The Interactive Eco-system was a project that helped introduce and develop my skills in using Java.
       The goal of this project was to develop a digital eco-system complete with animals and food, in which the animals would try to imitate real-world behaviors when approached with food and predators.</p>
 
       </section>
       <section>
-        <p>My first goal in developing this eco-system was to create a working prototype of fish swimming towards and consuming its food. To complete this, first I needed to draw out the fish using Java Graphics.</p>
+        <h3>Milestone 1</h3>
+        <p>My first goal in developing this eco-system was to create a working prototype of fish swimming towards and consuming its food. To complete this, first I needed to draw out the fish using Java Graphics. Next, I added a 'magnet' that would make the fish attracted to the food. This was done by checking the distance between the fish and the food and rotating/moving the fish towards the food accordingly. The fish also checks for the boundaries at each end of the fish tank and would turn away from the fish tank abruptly. Later on, this abrupt turning would be made smoother, creating a more realistic experience.</p>
         <div class="project-1-video">
-        <video controls>
-          <source src="videos/bwa44-A1P2.webm" type="video/webm">
+        <video controls class="project-1-code">
+          <source src="videos/project-1-milestone-1-code.webm" type="video/webm">
+        </video>
+        <video controls class="project-1-square-video">
+          <source src="videos/project-1-milestone-1-play.webm" type="video/webm">
         </video>
       </div>
       </section>
       <section>
-        <p>Next, I added collision to the eco-system, forcing the fish to turn its trajectory if it was near a wall. At this point, I also took a step further, developing a health system that would deteriorate when the fish became hungry, slowing down their movement until they died. On the other hand, if the fish were constantly eating food, their health would increase and stay healthy, moving at their normal speed.</p>
+        <h3>Milestone 2</h3>
+        <p>In Milestone 2, one of the biggest goals I needed to work on was to fix the issue of abrupt turning. This abrupt turning felt mechanical and unrealistic to a degree. Through rotating the fish and creating a turn circle, this was remedied. My next goal was to allow for the spawning of additional fish on a timer of different sizes. These fish, with different sizes, have a different life-cycle and would get hungry or swim faster according to their sizes. Lastly, when the fish are starved, an alternate head color would denote that the fish was unhealthy and the fish would move slower, eventually disappearing when they run out of health.</p>
         <div class="project-1-video">
-        <video controls>
-          <source src="videos/bwa44-A1P2.webm" type="video/webm">
+        <video controls class="project-1-code">
+          <source src="videos/project-1-milestone-2-code.webm" type="video/webm">
+        </video>
+        <video controls class="project-1-play">
+          <source src="videos/project-1-milestone-2-play.webm" type="video/webm">
         </video>
       </div>
       </section>
       <section>
-        <p>Lastly, in the final milestone, I removed the statistics above the fish itself and implemented a GUI that allowed the user to view the statistics of each individual fish to determine whether the fish was healthy or not. Additionally, I also added in manual modification to the eco-system, allowing the user to control the ecosystem. Sounds were also added to provide a greater immersion to the eco-system which were also toggleable by the user if they found the sounds to be irritating.</p>
+        <h3>Milestone 3</h3>
+        <p>In Milestone 3, I implemented a separate class of fish, the predators. This group of fish ignores the pellets that the regular fish eat and will instead eat the herbivore fish instead. Furthermore, this milestone includes the ability to select and view the status of a particular fish, noting its velocity and health.</p>
         <div class="project-1-video">
-        <video controls>
-          <source src="videos/bwa44-A1P2.webm" type="video/webm">
+        <video controls class="project-1-code">
+          <source src="videos/project-1-milestone-3-code.webm" type="video/webm">
+        </video>
+        <video controls class="project-1-play">
+          <source src="videos/project-1-milestone-3-play.webm" type="video/webm">
+        </video>
+      </div>
+      </section>
+      <section>
+        <h3>Milestone 4</h3>
+        <p>Lastly, in the final milestone, I implemented a GUI that allowed the user to view the statistics of each individual fish to determine whether the fish was healthy or not. Additionally, I also added in manual modification to the eco-system, allowing the user to control the ecosystem. Sounds were also added to provide a greater immersion to the eco-system which were also toggleable by the user if they found the sounds to be irritating.</p>
+        <div class="project-1-video">
+        <video controls class="project-1-code">
+          <source src="videos/project-1-milestone-4-code.webm" type="video/webm">
+        </video>
+        <video controls class="project-1-play">
+          <source src="videos/project-1-milestone-4-play.webm" type="video/webm">
         </video>
       </div>
       </section>
