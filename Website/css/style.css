@@ -198,12 +198,14 @@ h1{
 }
 
 .section-nav a{
+  transition: color 1.5s ease-out;
   color: #373e40;
 }
 
 .section-nav a:hover{
   color: #1ce4d5;
 }
+
 
 
 .about-container{
