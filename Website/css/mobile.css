@@ -284,3 +284,46 @@
     max-width: 60%;
   }
 }
+
+@media(max-height: 49em){
+  .about-title h1{
+    font-size: 2em;
+  }
+}
+
+@media(max-height: 47em){
+  .landing-content-container{
+    margin-top: 15em;
+  }
+
+  .about-content article p{
+    font-size: 0.8em;
+  }
+
+
+}
+
+
+@media(max-height: 41em){
+  .about-title h1{
+    font-size: 1.8em;
+  }
+}
+
+@media(max-height: 36em){
+  .landing-content-container{
+    margin-top: 10em;
+  }
+  .landing-content h1{
+    font-size: 1.5em;
+  }
+
+  .about-content article p{
+    font-size: 0.71em;
+  }
+  .contact-me-title i{
+    font-size: 0.7em;
+
+
+  }
+}

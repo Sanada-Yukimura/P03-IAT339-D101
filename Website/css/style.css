@@ -38,6 +38,7 @@ ul{
 }
 .section-nav{
   /* background-color: rgba(74, 82, 105, 0.9); */
+  /* gradient designed via http://angrytools.com/gradient/ */
   background: linear-gradient(45deg, rgba(181,149,100,0.8) 0%, rgba(204,193,169,0.8) 50%, rgba(181,149,100,0.8) 100%);
   padding-bottom: 1em;
   position: fixed;
