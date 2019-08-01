@@ -18,6 +18,9 @@ body{
 
 
 }
+article{
+  overflow:scroll;
+}
 
 a{
   color: #008080;
@@ -266,7 +269,7 @@ h1{
   border-bottom: 0.1em solid #1d2026;
 
 
-  text-align: justify;
+  text-align: left;
 }
 
 
@@ -395,7 +398,7 @@ i{
 
 .works-container{
   flex:50%;
-  padding-top: 5em;
+  padding-top: 2em;
   text-align: center;
   height:100vh;
 
@@ -412,7 +415,12 @@ i{
   flex-flow:row nowrap;
   height:100%;
   margin:auto;
+  overflow:scroll;
+  padding-bottom: 1em;
 
+}
+#project-1, #project-2{
+  padding-bottom: 1em;
 }
 
 
@@ -559,6 +567,10 @@ i{
   display:inline;
   max-width: 40%;
   margin-right: 1em;
+}
+
+.contact-content article{
+  padding-bottom: 2em;
 }
 footer{
   text-align: center;

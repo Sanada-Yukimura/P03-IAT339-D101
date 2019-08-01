@@ -13,7 +13,7 @@
 
 @media(max-width:95em){
   .section-content article{
-    padding-top: 5em;
+    padding-top: 0em;
   }
 }
 
@@ -285,6 +285,12 @@
   }
 }
 
+@media(max-width:21em){
+  .contact-me-title i{
+    font-size: 0.9em;
+  }
+}
+
 @media(max-height: 49em){
   .about-title h1{
     font-size: 2em;
@@ -325,5 +331,20 @@
     font-size: 0.7em;
 
 
+  }
+}
+@media(max-height: 23em){
+  .landing-content-container{
+    margin-top: 7em;
+  }
+  #works{
+    padding-top: 0;
+  }
+  #works h1{
+    margin-bottom: 0;
+  }
+  
+  .projects-content-container{
+    margin-top: 0em;
   }
 }
