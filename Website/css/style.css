@@ -221,8 +221,8 @@ h1{
 
 
 .section-nav{
-  padding-top: 1em;
-  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   text-align: center;
 
 
@@ -283,25 +283,37 @@ i{
 }
 
 
-
-
-.about-title{
+.contact-title, .about-title{
   flex: 0 0 30%;
   font-size: 3em;
   background-color: #1d2026;
 
   padding-top: 3.5em;
-  transform: rotate(-180deg);
+}
 
-  writing-mode: vertical-rl;
+.about-title{
+  background: #282c34 url("../img/about_me_portrait.png") no-repeat center;
+  flex: 0 0 30%;
+  font-size: 3em;
+  background-color: #1d2026;
+
+  padding-top: 2em;
+
 
 }
 
-.about-title h1{
+.contact-title{
+  background: #282c34 url("../img/contact.png") no-repeat center;
+  background-size: cover;
+}
+
+.about-title h1, .contact-title h1{
   /* margin-right: 4em; */
   text-decoration: underline;
   user-select: none;
+  transform: rotate(-180deg);
 
+  writing-mode: vertical-rl;
 
 }
 
@@ -556,12 +568,13 @@ i{
   font-weight: normal;
 }
 
-#contact-container{
+.contact-content{
   height:100vh;
 }
 
 .about-content{
   height:100vh;
+  margin-top: 5em;
 }
 .project-image{
   display:inline;
