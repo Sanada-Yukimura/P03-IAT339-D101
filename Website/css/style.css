@@ -192,7 +192,7 @@ h1{
   padding-left: 0.5em;
 }
 
-.home-page a:hover, .section-nav a:hover, .section-content a:hover, .arrow-left a:hover, .arrow-right a:hover{
+.home-page a:hover, .section-nav a:hover, .section-content a:hover, .arrow-left a:hover, .arrow-right a:hover, .project-1-new a:hover, .project-2-new a:hover, .project-detail-content a:hover{
   transition: color 0.25s ease-in;
   color: #00CDCD
 }
@@ -558,4 +558,7 @@ i{
   display:inline;
   max-width: 40%;
   margin-right: 1em;
+}
+footer{
+  text-align: center;
 }
