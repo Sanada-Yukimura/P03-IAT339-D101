@@ -198,6 +198,16 @@
   .landing-image img{
     max-width: 100%;
   }
+  .noscript-project-container{
+    flex-flow: column nowrap;
+    overflow:scroll;
+
+  }
+  .contact-content{
+    margin-top: 10em;
+    height:100%;
+  }
+
 }
 
 @media(max-width:42em){
@@ -315,6 +325,35 @@
     font-size: 1.8em;
   }
 }
+
+@media(max-height:39.5em){
+  .about-content article{
+    padding-top: 0.1em;
+  }
+
+  .about-content h1{
+    margin-top: 0;
+  }
+}
+
+@media(max-height: 38em){
+  #home, #about, #contact{
+    overflow:auto;
+  }
+  #works h1{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+  }
+
+  .projects-content-container{
+    margin-top: 1em;
+  }
+  .arrow-left, .arrow-right{
+    margin-top: 3em;
+  }
+
+}
+
 
 @media(max-height: 36em){
   .landing-content-container{

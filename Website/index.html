@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/fonts.css"/>
     <link rel="stylesheet" href="css/mobile.css"/>
+    <noscript><link rel="stylesheet" href="css/noscript.css"/></noscript>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About: Benedict Wong</title>
   </head>
   <body class="index-body">
+    <a href="#home" class="back-to-top"><img src="img/back-to-top.png"></a>
     <section class="section-nav">
       <nav>
         <a href="index.html#home">Home</a>
@@ -35,7 +37,7 @@
       </section>
       <section class="landing-content-more">
         <p>I'm an object-oriented programmer and a developing game designer whose interests lie in developing games and content for story-driven players.</p>
-        <button class="learn-more" onclick="linkTo('index.html#about')">LEARN MORE</button>
+        <noscript><a href="index.html#about"></noscript><button class="learn-more" onclick="linkTo('index.html#about')">LEARN MORE</button><noscript></a></noscript>
       </section>
 
   </section>
@@ -72,6 +74,41 @@
 <section class="works-container" id="works">
   <h1>Works</h1>
   <section class="works-content-container">
+    <noscript>
+        <section class="noscript-project-container">
+        <section class="noscript-project">
+          <section class="project-1-new" id="project-1-noscript">
+            <div class="project-new">
+              <video id ="project-1-preview" autoplay loop muted>
+                <source src="videos/project-1-preview.mp4" type="video/mp4">
+                <source src="videos/project-1-preview.webm" type="video/webm">
+              </video>
+            </div>
+            <section>
+              <h2>Interactive Ecosystem</h2>
+              <p>The Interactive Ecosystem is a digital simulation of fish surviving in a fish tank by swimming and eating food to survive.</p>
+              <a href="project-1.html">More info.</a>
+            </section>
+          </section>
+        </section>
+        <section class="noscript-project">
+          <section class="project-2-new" id="project-2-noscript">
+            <div class="project-new">
+              <video id ="project-2-preview" autoplay loop muted>
+                <source src="videos/project-2-preview.mp4" type="video/mp4">
+                <source src="videos/project-2-preview.webm" type="video/webm">
+                  Your browser does not support the video formats.
+              </video>
+            </div>
+            <section>
+              <h2>Paradise Lost</h2>
+              <p>Paradise Lost is an action/puzzle game where the player completes stages to piece together the mystery of why they are in purgatory.</p>
+              <a href="project-2.html">More info.</a>
+            </section>
+          </section>
+        </section>
+      </section>
+    </noscript>
     <section class="arrow-left">
       <a onclick="prev()">&#10148;</a>
     </section>
@@ -79,6 +116,7 @@
       <section class="project-1-new" id="project-1">
         <div class="project-new">
           <video id ="project-1-preview" autoplay loop muted>
+            <source src="videos/project-1-preview.mp4" type="video/mp4">
             <source src="videos/project-1-preview.webm" type="video/webm">
           </video>
         </div>
@@ -92,7 +130,9 @@
       <section class="project-2-new" id="project-2">
         <div class="project-new">
           <video id ="project-2-preview" autoplay loop muted>
+            <source src="videos/project-2-preview.mp4" type="video/mp4">
             <source src="videos/project-2-preview.webm" type="video/webm">
+              Your browser does not support the video formats.
           </video>
         </div>
         <section>
