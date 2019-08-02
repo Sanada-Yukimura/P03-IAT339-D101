@@ -110,7 +110,7 @@ ul{
 
 }
 
-.learn-more{
+.learn-more, .learn-more-noscript{
   margin-top: 1em;
   padding:1em;
   width:25em;
@@ -121,7 +121,7 @@ ul{
 
 }
 
-.learn-more:hover{
+.learn-more:hover, .learn-more-noscript:hover{
   background-color: #00325A;
   transition: background-color 0.05s ease-in;
 }

@@ -14,7 +14,7 @@
     <title>About: Benedict Wong</title>
   </head>
   <body class="index-body">
-    <a href="#home" class="back-to-top"><img src="img/back-to-top.png"></a>
+    <a href="#home" class="back-to-top"><img src="img/back-to-top.png" alt="back-to-top"></a>
     <section class="section-nav">
       <nav>
         <a href="index.html#home">Home</a>
@@ -37,7 +37,8 @@
       </section>
       <section class="landing-content-more">
         <p>I'm an object-oriented programmer and a developing game designer whose interests lie in developing games and content for story-driven players.</p>
-        <noscript><a href="index.html#about"></noscript><button class="learn-more" onclick="linkTo('index.html#about')">LEARN MORE</button><noscript></a></noscript>
+        <button class="learn-more" onclick="linkTo('index.html#about')">LEARN MORE</button>
+        <noscript><form action="index.html#about" method="post"><button class="learn-more-noscript" onclick="linkTo('index.html#about')">LEARN MORE</button></form></noscript>
       </section>
 
   </section>
@@ -79,7 +80,7 @@
         <section class="noscript-project">
           <section class="project-1-new" id="project-1-noscript">
             <div class="project-new">
-              <video id ="project-1-preview" autoplay loop muted>
+              <video id ="project-1-preview-noscript" autoplay loop muted>
                 <source src="videos/project-1-preview.mp4" type="video/mp4">
                 <source src="videos/project-1-preview.webm" type="video/webm">
               </video>
@@ -94,7 +95,7 @@
         <section class="noscript-project">
           <section class="project-2-new" id="project-2-noscript">
             <div class="project-new">
-              <video id ="project-2-preview" autoplay loop muted>
+              <video id ="project-2-preview-noscript" autoplay loop muted>
                 <source src="videos/project-2-preview.mp4" type="video/mp4">
                 <source src="videos/project-2-preview.webm" type="video/webm">
                   Your browser does not support the video formats.
